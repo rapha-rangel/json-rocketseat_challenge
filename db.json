@@ -1,74 +1,120 @@
 "allProducts":[
    {
+      "id":1,
       "name":"Caneca de cerâmica rústica",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/caneca-06.jpg",
-      "category":"mugs"
+      "category":"mugs",
+      "price_in_cents": 3000,
+      "sales": 90,
+       "created_at":'2001-02-02'
    },
    {
+      "id":2,
       "name":"Camiseta not today.",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-05.jpg",
-      "category":"t-shirts"
+      "category":"t-shirts",
+      "price_in_cents": 4000,
+      "sales": 90,
+      "created_at":'2010-02-02'
    },
    {
+      "id":3,
       "name":"Caneca Black Ring",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/caneca-04.jpg",
-      "category":"mugs"
+      "category":"mugs",
+      "price_in_cents": 1000,
+      "sales": 65,
+      "created_at":'2015-02-02'
    },
    {
+      "id":4,,
       "name":"Camiseta Broken Saints",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-03.jpg",
-      "category":"t-shirts"
+      "category":"t-shirts",
+      "price_in_cents": 55000,
+      "sales": 15,
+      "created_at":'2010-06-02'
    },
    {
+      "id":5,
       "name":"Camiseta Outcast",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-06.jpg",
-      "category":"t-shirts"
+      "category":"t-shirts",
+      "price_in_cents": 6000,
+      "sales": 10,
+      "created_at":'2020-02-02'
    },
    {
       "name":"Caneca The Grounds",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/caneca-05.jpg",
-      "category":"mugs"
+      "category":"mugs",
+      "price_in_cents": 3000,
+      "sales": 99,
+      "created_at":'2011-01-02'
    },
    {
+      "id":6,
       "name":"Camiseta evening",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-02.jpg",
-      "category":"t-shirts"
+      "category":"t-shirts",
+      "price_in_cents": 8000,
+      "sales": 35,
+      "created_at":'2002-02-02'
    },
    {
+      "id":7,
       "name":"Caneca preto fosco",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/caneca-01.jpg",
-      "category":"mugs"
+      "category":"mugs",
+      "price_in_cents": 4500,
+      "sales": 8,
+      "created_at":'2010-02-02'
    },
    {
       "name":"Caneca Never settle",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg",
-      "category":"mugs"
+      "category":"mugs",
+      "price_in_cents": 4500,
+      "sales": 44,
+      "created_at":'2001-02-08'
    },
    {
+      "id":8,
       "name":"Camiseta DREAMER",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-01.jpg",
-      "category":"t-shirts"
+      "category":"t-shirts",
+      "price_in_cents": 10000,
+      "sales": 69,
+      "created_at":'2011-02-02'
    },
    {
+      "id":9,
       "name":"Caneca Decaf! P&Co",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/caneca-02.jpg",
-      "category":"mugs"
+      "category":"mugs",
+      "price_in_cents": 3000,
+      "sales": 50,
+      "created_at":'2008-06-02'
    },
    {
+      "id":10,
       "name":"Camiseta Ramones",
       "description":"faker.lorem.paragraph()",
       "image_url":"https://storage.googleapis.com/xesque-dev/challenge-images/camiseta-04.jpg",
-      "category":"t-shirts"
+      "category":"t-shirts",
+      "price_in_cents": 15000,
+      "sales": 20,
+      "created_at":'2001-02-02'
    }
 ]
