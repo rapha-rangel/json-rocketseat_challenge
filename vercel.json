@@ -15,11 +15,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "api/server.js",
-            "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-          "headers": {
-            "Access-Control-Allow-Origin": "*"
-          }
+            "dest": "api/server.js"
         }
     ]
 }
