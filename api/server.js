@@ -24,7 +24,7 @@ server.use(jsonServer.rewriter({
 server.use(router)
 server.use(
   cors({
-    origin: true,
+    origin: false,
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   })
 );
