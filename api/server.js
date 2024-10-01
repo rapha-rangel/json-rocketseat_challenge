@@ -14,15 +14,21 @@ const router = jsonServer.router(db)
 // Comment out to allow write operations
 // const router = jsonServer.router('db.json')
 
-const middlewares = jsonServer.defaults()
-
-server.use(middlewares)
-// Add this before server.use(router)
+const middlewares = jsonServer.defaults();
+const cors = require("cors");
+server.use(middlewares);
 server.use(jsonServer.rewriter({
     '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id'
 }))
 server.use(router)
+server.use(
+  cors({
+    origin: true,
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  })
+);
+server.options("*", cors());
 server.listen(3000, () => {
     console.log('JSON Server is running')
 })
